@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reading Chapter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="chapter">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="titleline">
+        <strong id="readerTopTitle">Reading Audiobook</strong>
+        <span><a class="toplink" href="index.html">← Back to chapters</a></span>
+      </div>
+      <audio id="audio" preload="metadata" controls></audio>
+      <div class="controls">
+        <button id="back10" type="button">← 10s</button>
+        <button id="forth10" type="button">10s →</button>
+        <button id="toggleScroll" type="button">Auto-scroll: on</button>
+        <button id="clearMark" type="button">Clear highlight</button>
+        <label>
+          Speed
+          <select id="speedSelect" aria-label="Reading speed">
+            <option value="0.75">0.75×</option>
+            <option value="0.9">0.9×</option>
+            <option value="1" selected>1×</option>
+            <option value="1.1">1.1×</option>
+            <option value="1.25">1.25×</option>
+            <option value="1.5">1.5×</option>
+          </select>
+        </label>
+        <span class="time" id="timeLabel">0:00 / 0:00</span>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <article class="book">
+      <section class="hero">
+        <p class="kicker" id="chapterKicker">Reading</p>
+        <h1 id="chapterTitle">Chapter</h1>
+        <p class="subtitle" id="sectionTitle">Section</p>
+        <div class="status-line" id="chapterMeta"></div>
+      </section>
+
+      <div class="hint">Click any sentence to jump to that part of the audiobook. Highlight timing is sentence-level and follows the current audio file.</div>
+      <div id="readerMessage" class="loading">Loading chapter…</div>
+      <div id="text" aria-label="Timed reading text"></div>
+      <p class="footer">Use <code>chapters.json</code> to add new chapters and sections without editing this reader page.</p>
+    </article>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

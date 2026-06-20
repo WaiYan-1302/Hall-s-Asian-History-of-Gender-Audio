@@ -1,0 +1,16 @@
+{
+  "id": "chapter-02-japan",
+  "title": "Japan",
+  "subtitle": "Early Modern East Asia Reading",
+  "dateAdded": "2026-06-20",
+  "status": "ready",
+  "sections": [
+    {
+      "id": "full",
+      "title": "Full Japan Section",
+      "text": "chapters/chapter-02-japan/text.txt",
+      "audio": "chapters/chapter-02-japan/audio.mp3",
+      "timings": "chapters/chapter-02-japan/timings.json"
+    }
+  ]
+}

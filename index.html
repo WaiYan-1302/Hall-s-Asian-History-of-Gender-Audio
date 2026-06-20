@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reading Audiobook Library</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+  <main class="wrap">
+    <article class="book">
+      <section class="hero">
+        <p class="kicker" id="courseTitle">Course Reading Room</p>
+        <h1 class="home-title" id="siteTitle">Reading Audiobook Library</h1>
+        <p class="description">Choose a chapter to read with sentence-timed audio highlighting.</p>
+      </section>
+
+      <div id="homeMessage" class="loading">Loading chapters…</div>
+      <section id="chapterList" class="chapter-list" aria-label="Chapter list"></section>
+
+      <p class="footer">Static GitHub Pages site. Add weekly readings by adding a folder under <code>chapters/</code> and updating <code>chapters.json</code>.</p>
+    </article>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
