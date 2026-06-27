@@ -1,0 +1,17 @@
+{
+  "id": "chapter-05-korea-under-japan-rule",
+  "title": "Korea Under Japanese Rule",
+  "subtitle": "Colonial Korea, Gender Relations, Feminism, and Nationalism",
+  "folder": "chapters/chapter-05-korea-under-japan-rule",
+  "dateAdded": "2026-06-27",
+  "status": "ready-approximate-timing",
+  "sections": [
+    {
+      "id": "full",
+      "title": "Full Korea Section",
+      "text": "chapters/chapter-05-korea-under-japan-rule/text.txt",
+      "audio": "chapters/chapter-05-korea-under-japan-rule/audio.mp3",
+      "timings": "chapters/chapter-05-korea-under-japan-rule/timings.json"
+    }
+  ]
+}
