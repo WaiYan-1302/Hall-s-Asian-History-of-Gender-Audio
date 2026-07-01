@@ -1,40 +1,38 @@
 {
-  "siteTitle": "Reading Audiobook Library",
-  "courseTitle": "Gender and Sexuality in East Asia",
-  "chapters": [
+  "id": "chapter-08-gender-and-world-war-ii",
+  "title": "Gender and World War II",
+  "subtitle": "Global Context, Japan, China, and Korea",
+  "folder": "chapters/chapter-08-gender-and-world-war-ii",
+  "dateAdded": "2026-07-01",
+  "status": "ready-with-audio",
+  "sections": [
     {
-      "id": "chapter-02-japan",
-      "title": "Japan",
-      "subtitle": "Early Modern East Asia Reading",
-      "folder": "chapters/chapter-02-japan",
-      "dateAdded": "2026-06-20",
-      "status": "ready",
-      "sections": [
-        {
-          "id": "full",
-          "title": "Full Japan Section",
-          "text": "chapters/chapter-02-japan/text.txt",
-          "audio": "chapters/chapter-02-japan/audio.mp3",
-          "timings": "chapters/chapter-02-japan/timings.json"
-        }
-      ]
+      "id": "section-global-context",
+      "title": "Global Context",
+      "text": "chapters/chapter-08-gender-and-world-war-ii/section-global-context/text.txt",
+      "audio": "chapters/chapter-08-gender-and-world-war-ii/section-global-context/audio.mp3",
+      "timings": "chapters/chapter-08-gender-and-world-war-ii/section-global-context/timings.json"
     },
     {
-      "id": "chapter-05-korea-under-japan-rule",
-      "title": "Korea Under Japanese Rule",
-      "subtitle": "Colonial Korea, Gender Relations, Feminism, and Nationalism",
-      "folder": "chapters/chapter-05-korea-under-japan-rule",
-      "dateAdded": "2026-06-27",
-      "status": "ready-approximate-timing",
-      "sections": [
-        {
-          "id": "full",
-          "title": "Full Korea Section",
-          "text": "chapters/chapter-05-korea-under-japan-rule/text.txt",
-          "audio": "chapters/chapter-05-korea-under-japan-rule/audio.mp3",
-          "timings": "chapters/chapter-05-korea-under-japan-rule/timings.json"
-        }
-      ]
+      "id": "section-japan",
+      "title": "Japan",
+      "text": "chapters/chapter-08-gender-and-world-war-ii/section-japan/text.txt",
+      "audio": "chapters/chapter-08-gender-and-world-war-ii/section-japan/audio.mp3",
+      "timings": "chapters/chapter-08-gender-and-world-war-ii/section-japan/timings.json"
+    },
+    {
+      "id": "section-china",
+      "title": "China",
+      "text": "chapters/chapter-08-gender-and-world-war-ii/section-china/text.txt",
+      "audio": "chapters/chapter-08-gender-and-world-war-ii/section-china/audio.mp3",
+      "timings": "chapters/chapter-08-gender-and-world-war-ii/section-china/timings.json"
+    },
+    {
+      "id": "section-korea",
+      "title": "Korea",
+      "text": "chapters/chapter-08-gender-and-world-war-ii/section-korea/text.txt",
+      "audio": "chapters/chapter-08-gender-and-world-war-ii/section-korea/audio.mp3",
+      "timings": "chapters/chapter-08-gender-and-world-war-ii/section-korea/timings.json"
     }
   ]
 }
